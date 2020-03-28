@@ -8,6 +8,8 @@ TagManager:
   - enemy
   - boss
   - entrance
+  - floor
+  - bullet
   layers:
   - Default
   - TransparentFX
