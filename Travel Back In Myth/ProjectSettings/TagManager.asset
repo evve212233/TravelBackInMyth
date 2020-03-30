@@ -4,12 +4,12 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - door
   - enemy
   - boss
   - entrance
   - floor
   - bullet
+  - Key
   layers:
   - Default
   - TransparentFX

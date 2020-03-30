@@ -61,6 +61,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\endController.cs" />
+    <Compile Include="Assets\enemy.cs" />
     <Compile Include="Assets\GameManager.cs" />
     <Compile Include="Assets\Scritps\BeginControl.cs" />
     <Compile Include="Assets\Scritps\bulletController.cs" />
