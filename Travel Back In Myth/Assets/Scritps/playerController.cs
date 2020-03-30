@@ -51,16 +51,12 @@ public class playerController : MonoBehaviour
             move -= transform.right;
             if (face_right == true) { flip(); }
         }
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.Space))
         {
             move += transform.up;
         }
-        if (Input.GetKey(KeyCode.S))
-        {
-            move -= transform.up;
-        }
 
-        if (Input.GetKey(KeyCode.Space) && Time.time > nextFire)
+        if (Input.GetMouseButton(0) && Time.time > nextFire)
         {
             nextFire = Time.time + fireRate;
             fire();
